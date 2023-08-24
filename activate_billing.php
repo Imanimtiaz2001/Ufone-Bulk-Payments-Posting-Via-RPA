@@ -13,9 +13,9 @@
 use Twilio\Rest\Client;
 
 // Your Twilio account SID, auth token, and phone number
-$accountSid = "ACd6bbc176620dbdbe1d1737ee0c737030";
-$authToken = "d5febff5a3919263a369fe54bf7bfe63";
-$twilioPhoneNumber = "+18145645469";
+$accountSid = "";
+$authToken = "";
+$twilioPhoneNumber = "";
 
 // Function to send an SMS using Twilio
 function sendSms($toPhoneNumber, $message, $accountSid, $authToken, $twilioPhoneNumber) {
