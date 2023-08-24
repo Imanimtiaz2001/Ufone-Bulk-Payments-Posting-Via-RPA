@@ -1,0 +1,134 @@
+/* styles.css */
+body {
+  background-image: url("Background.jpeg");
+  /* Path to your background image */
+  background-size: cover;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  margin-top: 30px;
+  margin-bottom: -30px;
+  font-size: 30px;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type="text"],
+input[type="number"] {
+  text-align: center;
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+input[type="text"]::placeholder,
+input[type="number"]::placeholder {
+  color: lightgray;
+}
+
+input[type="submit"] {
+  background-color: grey;
+  color: white;
+  border: 1px solid white;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: -20px;
+}
+
+input[type="submit"]:hover {
+  background-color: lightgrey;
+  color: black;
+  border: 1px solid black;
+}
+
+
+
+table,
+form {
+  margin: 50px auto;
+  background-color: rgba(197, 194, 190, 0.2);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border: 1px solid grey;
+  text-align: center;
+  color: black;
+}
+
+form {
+  width: 300px;
+  padding: 40px 0px;
+}
+
+th,
+td {
+  border: 1px solid rgb(173, 158, 158);
+  padding: 8px;
+  border-collapse: separate;
+  border-spacing: 0;
+  text-align: center;
+  font-size: 11px;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+th {
+  font-size: 13px;
+}
+
+th[colspan="8"] {
+  font-size: 28px;
+  padding: 0px;
+  line-height: 0;
+}
+
+.activate-billing-btn {
+  background-color: lightgrey;
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.activate-billing-btn[disabled] {
+  background-color: lightgray;
+  cursor: not-allowed;
+}
+
+.error-message {
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.logo-image {
+  display: block;
+  max-width: 220px;
+  height: auto;
+  margin: 0px auto 0px;
+}
+
+.feedback {
+  position: absolute;
+  color: black;
+  font-weight: bold;
+  bottom: 90px;
+  font-size: 18px;
+  text-align: center;
+}
